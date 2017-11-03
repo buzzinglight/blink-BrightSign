@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sync version="1.0">
+  <meta>
+    <client>
+      <timezone>GMT+1</timezone>
+      <unitName>Buzzing Bright</unitName>
+      <unitNamingMethod>unitNameOnly</unitNamingMethod>
+      <unitDescription>BrightSign de Buzzing Light</unitDescription>
+      <specifyHostname>no</specifyHostname>
+      <useProxy>no</useProxy>
+      <useWireless>no</useWireless>
+      <timeServer>http://time.brightsignnetwork.com</timeServer>
+      <useDHCP>yes</useDHCP>
+      <rateLimitModeOutsideWindow>default</rateLimitModeOutsideWindow>
+      <rateLimitRateOutsideWindow>0</rateLimitRateOutsideWindow>
+      <rateLimitModeInWindow>unlimited</rateLimitModeInWindow>
+      <rateLimitRateInWindow>0</rateLimitRateInWindow>
+      <rateLimitModeInitialDownloads>unlimited</rateLimitModeInitialDownloads>
+      <rateLimitRateInitialDownloads>0</rateLimitRateInitialDownloads>
+      <networkConnectionPriorityWired>0</networkConnectionPriorityWired>
+      <networkConnectionPriorityWireless>1</networkConnectionPriorityWireless>
+      <contentDataTypeEnabledWired>True</contentDataTypeEnabledWired>
+      <textFeedsDataTypeEnabledWired>True</textFeedsDataTypeEnabledWired>
+      <healthDataTypeEnabledWired>True</healthDataTypeEnabledWired>
+      <mediaFeedsDataTypeEnabledWired>True</mediaFeedsDataTypeEnabledWired>
+      <logUploadsDataTypeEnabledWired>True</logUploadsDataTypeEnabledWired>
+      <lwsConfig>status</lwsConfig>
+      <lwsUserName>admin</lwsUserName>
+      <lwsPassword>Guillaumes</lwsPassword>
+      <lwsEnableUpdateNotifications>yes</lwsEnableUpdateNotifications>
+      <playbackLoggingEnabled>yes</playbackLoggingEnabled>
+      <eventLoggingEnabled>yes</eventLoggingEnabled>
+      <stateLoggingEnabled>yes</stateLoggingEnabled>
+      <diagnosticLoggingEnabled>yes</diagnosticLoggingEnabled>
+      <variableLoggingEnabled>yes</variableLoggingEnabled>
+      <uploadLogFilesAtBoot>no</uploadLogFilesAtBoot>
+      <uploadLogFilesAtSpecificTime>no</uploadLogFilesAtSpecificTime>
+      <uploadLogFilesTime>0</uploadLogFilesTime>
+      <dwsEnabled>yes</dwsEnabled>
+      <dwsPassword>AC07F75B56D1DEF7479D7E325F4D31BD02682377F7CA6E974DB8756DC146021E0</dwsPassword>
+      <deviceScreenShotsEnabled>no</deviceScreenShotsEnabled>
+      <deviceScreenShotsInterval>15</deviceScreenShotsInterval>
+      <deviceScreenShotsCountLimit>1</deviceScreenShotsCountLimit>
+      <deviceScreenShotsQuality>50</deviceScreenShotsQuality>
+      <deviceScreenShotsDisplayPortrait>False</deviceScreenShotsDisplayPortrait>
+      <idleScreenColor>FFFF8000</idleScreenColor>
+      <networkDiagnosticsEnabled>False</networkDiagnosticsEnabled>
+      <testEthernetEnabled>True</testEthernetEnabled>
+      <testWirelessEnabled>False</testWirelessEnabled>
+      <testInternetEnabled>True</testInternetEnabled>
+      <useCustomSplashScreen>True</useCustomSplashScreen>
+      <limitStorageSpace>False</limitStorageSpace>
+      <enableSerialDebugging>True</enableSerialDebugging>
+      <enableSystemLogDebugging>True</enableSystemLogDebugging>
+    </client>
+  </meta>
+  <files>
+    <download>
+      <name>autoplay-blink.xml</name>
+      <hash method="SHA1">e9c823f84bae8375bc4dced28cfe4c047203e2df</hash>
+      <size>11911</size>
+      <link>pool/d/f/sha1-e9c823f84bae8375bc4dced28cfe4c047203e2df</link>
+    </download>
+    <download>
+      <name>blink.bml</name>
+      <hash method="SHA1">c1d162a9041857532f19473887abea2167e6641e</hash>
+      <size>12296</size>
+      <link>pool/1/e/sha1-c1d162a9041857532f19473887abea2167e6641e</link>
+    </download>
+    <download>
+      <name>BlinkIntegration.brs</name>
+      <hash method="SHA1">0b6862d419a7d7953ddcbcf9d70c7273975b2ceb</hash>
+      <size>1704</size>
+      <link>pool/e/b/sha1-0b6862d419a7d7953ddcbcf9d70c7273975b2ceb</link>
+      <group>script</group>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-404.html</name>
+      <hash method="SHA1">740fc96551a29aba076ff447fd3f8973c688e2d7</hash>
+      <size>3393</size>
+      <link>pool/d/7/sha1-740fc96551a29aba076ff447fd3f8973c688e2d7</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-bas.html</name>
+      <hash method="SHA1">8899e2dbe1a4b7399b9a18fa21830d2d1934ec48</hash>
+      <size>878</size>
+      <link>pool/4/8/sha1-8899e2dbe1a4b7399b9a18fa21830d2d1934ec48</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-favicon.ico</name>
+      <hash method="SHA1">a1bae6f0516a56cf140aa7177e9559418fe8f85e</hash>
+      <size>1150</size>
+      <link>pool/5/e/sha1-a1bae6f0516a56cf140aa7177e9559418fe8f85e</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-index.html</name>
+      <hash method="SHA1">87d1eb6a86ba28bfa8008f10be7136fb0ed15e0c</hash>
+      <size>201</size>
+      <link>pool/0/c/sha1-87d1eb6a86ba28bfa8008f10be7136fb0ed15e0c</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-robots.txt</name>
+      <hash method="SHA1">3ab05768bd908347af276df97617571b5f950c28</hash>
+      <size>31</size>
+      <link>pool/2/8/sha1-3ab05768bd908347af276df97617571b5f950c28</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-fonts/glyphicons-halflings-regular.eot</name>
+      <hash method="SHA1">f3a9a3b609133c3d21d6b42abbf7f43bd111df72</hash>
+      <size>20335</size>
+      <link>pool/7/2/sha1-f3a9a3b609133c3d21d6b42abbf7f43bd111df72</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-fonts/glyphicons-halflings-regular.svg</name>
+      <hash method="SHA1">66b1fc67e37d01ee45ca75c4eefb144d2dbe98fa</hash>
+      <size>62926</size>
+      <link>pool/f/a/sha1-66b1fc67e37d01ee45ca75c4eefb144d2dbe98fa</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-fonts/glyphicons-halflings-regular.ttf</name>
+      <hash method="SHA1">aafafdc09404c4aa4447d7e898a2183def9cc1b1</hash>
+      <size>41280</size>
+      <link>pool/b/1/sha1-aafafdc09404c4aa4447d7e898a2183def9cc1b1</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-fonts/glyphicons-halflings-regular.woff</name>
+      <hash method="SHA1">22037a3455914e5662fa51a596677bdb329e2c5c</hash>
+      <size>23320</size>
+      <link>pool/5/c/sha1-22037a3455914e5662fa51a596677bdb329e2c5c</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-html/landing/landing.html</name>
+      <hash method="SHA1">f71be1e9fc8dc38cadb5e3cbf8fcad4f7368a9e0</hash>
+      <size>886</size>
+      <link>pool/e/0/sha1-f71be1e9fc8dc38cadb5e3cbf8fcad4f7368a9e0</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-html/remote-snapshot/configure-snapshots.html</name>
+      <hash method="SHA1">19aebb30bc487d5ce7b7ff009d6e2f1746dddcfe</hash>
+      <size>4216</size>
+      <link>pool/f/e/sha1-19aebb30bc487d5ce7b7ff009d6e2f1746dddcfe</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-html/remote-snapshot/view-snapshots.html</name>
+      <hash method="SHA1">1bfae55189a796ae5b6daa90e56c09534312b251</hash>
+      <size>2243</size>
+      <link>pool/5/1/sha1-1bfae55189a796ae5b6daa90e56c09534312b251</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-images/bg_main_background.ec008440.png</name>
+      <hash method="SHA1">af0bc48cf35bfaee4f21f99a8e48594fa514ee8f</hash>
+      <size>98</size>
+      <link>pool/8/f/sha1-af0bc48cf35bfaee4f21f99a8e48594fa514ee8f</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-images/bs-logo.558b3252.png</name>
+      <hash method="SHA1">19240f186609ea1cbf728c3687f75e1bcb977987</hash>
+      <size>2914</size>
+      <link>pool/8/7/sha1-19240f186609ea1cbf728c3687f75e1bcb977987</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-scripts/brightsign.087c41eb.js</name>
+      <hash method="SHA1">fa1157d9899362291d7f289aa53bc7ef54c0fd50</hash>
+      <size>8261</size>
+      <link>pool/5/0/sha1-fa1157d9899362291d7f289aa53bc7ef54c0fd50</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-scripts/oldieshim.76f279db.js</name>
+      <hash method="SHA1">370f5dbee879aaad2c37b589123017530e064487</hash>
+      <size>20978</size>
+      <link>pool/8/7/sha1-370f5dbee879aaad2c37b589123017530e064487</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-scripts/vendor.93fc20a3.js</name>
+      <hash method="SHA1">1a7e3e7ff6c2ee0da3867f29173da34d18b6e4d7</hash>
+      <size>329963</size>
+      <link>pool/d/7/sha1-1a7e3e7ff6c2ee0da3867f29173da34d18b6e4d7</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-styles/brightsign.1ea7f101.css</name>
+      <hash method="SHA1">41989e2ff79dd7bd1b294cb382e654c234a38b46</hash>
+      <size>1276</size>
+      <link>pool/4/6/sha1-41989e2ff79dd7bd1b294cb382e654c234a38b46</link>
+    </download>
+    <download>
+      <name>BrightSignApplicationServer-styles/vendor.51dd6dba.css</name>
+      <hash method="SHA1">e0ed151874827272f4caadbdcf45f82075472bcb</hash>
+      <size>132555</size>
+      <link>pool/c/b/sha1-e0ed151874827272f4caadbdcf45f82075472bcb</link>
+    </download>
+    <download>
+      <name>autorun.brs</name>
+      <hash method="SHA1">02c7d34e13aa5ce5f925f9f4d0e853aac42c6488</hash>
+      <size>1113637</size>
+      <link>pool/8/8/sha1-02c7d34e13aa5ce5f925f9f4d0e853aac42c6488</link>
+      <group>script</group>
+    </download>
+    <download>
+      <name>autoschedule.xml</name>
+      <hash method="SHA1">df6fb7084ab6968aacfee509f53a3b9676599b94</hash>
+      <size>928</size>
+      <link>pool/9/4/sha1-df6fb7084ab6968aacfee509f53a3b9676599b94</link>
+    </download>
+    <download>
+      <name>resources.txt</name>
+      <hash method="SHA1">123580d24f72d21dbb92628f94e64a43ac0e69c1</hash>
+      <size>2299</size>
+      <link>pool/c/1/sha1-123580d24f72d21dbb92628f94e64a43ac0e69c1</link>
+    </download>
+    <download>
+      <name>autoplugins.brs</name>
+      <hash method="SHA1">f79a09b6cb24789260641fd2b27902a9146429b6</hash>
+      <size>178</size>
+      <link>pool/b/6/sha1-f79a09b6cb24789260641fd2b27902a9146429b6</link>
+      <group>script</group>
+    </download>
+    <download>
+      <name>_deviceWebPage.html</name>
+      <hash method="SHA1">ea99df6e9103c0d9dd4b419519dbfbc3c97ef6df</hash>
+      <size>116438</size>
+      <link>pool/d/f/sha1-ea99df6e9103c0d9dd4b419519dbfbc3c97ef6df</link>
+    </download>
+    <download>
+      <name>_deviceIdWebPage.html</name>
+      <hash method="SHA1">a3eeb8009617a56fa412802e061ec931a6bd0fb1</hash>
+      <size>117474</size>
+      <link>pool/b/1/sha1-a3eeb8009617a56fa412802e061ec931a6bd0fb1</link>
+    </download>
+    <download>
+      <name>featureMinRevs.xml</name>
+      <hash method="SHA1">fdbac43a6c90bd6ec10d808d00e913ffca2dd709</hash>
+      <size>1017</size>
+      <link>pool/0/9/sha1-fdbac43a6c90bd6ec10d808d00e913ffca2dd709</link>
+    </download>
+    <download>
+      <name>BoseProducts.xml</name>
+      <hash method="SHA1">5b6caa887432752a73ab434d13a5f7d95e795e2f</hash>
+      <size>13061</size>
+      <link>pool/2/f/sha1-5b6caa887432752a73ab434d13a5f7d95e795e2f</link>
+    </download>
+    <delete>
+      <pattern>*.brs</pattern>
+    </delete>
+    <delete>
+      <pattern>*.rok</pattern>
+    </delete>
+    <delete>
+      <pattern>*.bsfw</pattern>
+    </delete>
+    <ignore>
+      <pattern>*</pattern>
+    </ignore>
+  </files>
+</sync>
