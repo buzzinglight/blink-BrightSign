@@ -175,7 +175,7 @@
     <scriptPlugins>
       <scriptPlugin>
         <name>BlinkIntegration</name>
-        <path>V:\blink\Code\blink-BrightSign\BlinkIntegration.brs</path>
+        <path>X:\blink\Code\blink-BrightSign\BlinkIntegration.brs</path>
       </scriptPlugin>
     </scriptPlugins>
     <parserPlugins>
@@ -193,7 +193,7 @@
         <url>
           <parameterValue>
             <parameterValueItemText>
-              <value>http://192.168.0.29/update/Tablets/core/</value>
+              <value>http://192.168.120.1/update/Tablets/core/</value>
             </parameterValueItemText>
           </parameterValue>
         </url>
@@ -204,21 +204,21 @@
     <beacons>
     </beacons>
     <DirectoryLocations>
-      <AllFiles>V:\blink\Code\blink-BrightSign</AllFiles>
-      <Image>V:\blink\Code\blink-BrightSign</Image>
-      <Video>V:\blink\Code\blink-BrightSign</Video>
-      <Audio>V:\blink\Code\blink-BrightSign</Audio>
-      <Media>V:\blink\Code\blink-BrightSign</Media>
-      <Fonts>V:\blink\Code\blink-BrightSign</Fonts>
-      <HTML>V:\blink\Code\blink-BrightSign</HTML>
-      <PluginScriptsAutoruns>V:\blink\Code\blink-BrightSign</PluginScriptsAutoruns>
-      <CSV>V:\blink\Code\blink-BrightSign</CSV>
-      <RFChannelScan>V:\blink\Code\blink-BrightSign</RFChannelScan>
-      <Schedules>V:\blink\Code\blink-BrightSign</Schedules>
-      <ReplacementMedia>V:\blink\Code\blink-BrightSign</ReplacementMedia>
-      <UserVariables>V:\blink\Code\blink-BrightSign</UserVariables>
-      <XModemFiles>V:\blink\Code\blink-BrightSign</XModemFiles>
-      <ImportCommandFiles>V:\blink\Code\blink-BrightSign</ImportCommandFiles>
+      <AllFiles>X:\blink\Code\blink-BrightSign</AllFiles>
+      <Image>X:\blink\Code\blink-BrightSign</Image>
+      <Video>X:\blink\Code\blink-BrightSign</Video>
+      <Audio>X:\blink\Code\blink-BrightSign</Audio>
+      <Media>X:\blink\Code\blink-BrightSign</Media>
+      <Fonts>X:\blink\Code\blink-BrightSign</Fonts>
+      <HTML>X:\blink\Code\blink-BrightSign</HTML>
+      <PluginScriptsAutoruns>X:\blink\Code\blink-BrightSign</PluginScriptsAutoruns>
+      <CSV>X:\blink\Code\blink-BrightSign</CSV>
+      <RFChannelScan>X:\blink\Code\blink-BrightSign</RFChannelScan>
+      <Schedules>X:\blink\Code\blink-BrightSign</Schedules>
+      <ReplacementMedia>X:\blink\Code\blink-BrightSign</ReplacementMedia>
+      <UserVariables>X:\blink\Code\blink-BrightSign</UserVariables>
+      <XModemFiles>X:\blink\Code\blink-BrightSign</XModemFiles>
+      <ImportCommandFiles>X:\blink\Code\blink-BrightSign</ImportCommandFiles>
     </DirectoryLocations>
     <graphicsZOrder>Front</graphicsZOrder>
     <isMosaic>False</isMosaic>
