@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BrightAuthor version="6" BrightAuthorVersion="4.6.0.36" type="project">
+<BrightAuthor version="6" BrightAuthorVersion="4.7.1.14" type="project">
   <meta>
     <name>blink - HD223</name>
     <isBackup>False</isBackup>
@@ -13,6 +13,8 @@
     <htmlEnableJavascriptConsole>True</htmlEnableJavascriptConsole>
     <backgroundScreenColor a="255" r="0" g="0" b="0" />
     <forceResolution>True</forceResolution>
+    <dolbyVision>False</dolbyVision>
+    <fullResGraphicsEnabled>False</fullResGraphicsEnabled>
     <tenBitColorEnabled>False</tenBitColorEnabled>
     <monitorOverscan>noOverscan</monitorOverscan>
     <gpio0>input</gpio0>
@@ -143,6 +145,8 @@
     <touchCursorDisplayMode>auto</touchCursorDisplayMode>
     <language>French</language>
     <languageKey>fre</languageKey>
+    <audioConfiguration>FixedAudio</audioConfiguration>
+    <audioAutoLevel>False</audioAutoLevel>
     <audio1MinVolume>0</audio1MinVolume>
     <audio1MaxVolume>100</audio1MaxVolume>
     <audio2MinVolume>0</audio2MinVolume>
@@ -157,6 +161,24 @@
     <usbCMaxVolume>100</usbCMaxVolume>
     <usbDMinVolume>0</usbDMinVolume>
     <usbDMaxVolume>100</usbDMaxVolume>
+    <usbTypeAMinVolume>0</usbTypeAMinVolume>
+    <usbTypeAMaxVolume>100</usbTypeAMaxVolume>
+    <usbTypeCMinVolume>0</usbTypeCMinVolume>
+    <usbTypeCMaxVolume>100</usbTypeCMaxVolume>
+    <usb700_1MinVolume>0</usb700_1MinVolume>
+    <usb700_1MaxVolume>100</usb700_1MaxVolume>
+    <usb700_2MinVolume>0</usb700_2MinVolume>
+    <usb700_2MaxVolume>100</usb700_2MaxVolume>
+    <usb700_3MinVolume>0</usb700_3MinVolume>
+    <usb700_3MaxVolume>100</usb700_3MaxVolume>
+    <usb700_4MinVolume>0</usb700_4MinVolume>
+    <usb700_4MaxVolume>100</usb700_4MaxVolume>
+    <usb700_5MinVolume>0</usb700_5MinVolume>
+    <usb700_5MaxVolume>100</usb700_5MaxVolume>
+    <usb700_6MinVolume>0</usb700_6MinVolume>
+    <usb700_6MaxVolume>100</usb700_6MaxVolume>
+    <usb700_7MinVolume>0</usb700_7MinVolume>
+    <usb700_7MaxVolume>100</usb700_7MaxVolume>
     <hdmiMinVolume>0</hdmiMinVolume>
     <hdmiMaxVolume>100</hdmiMaxVolume>
     <spdifMinVolume>0</spdifMinVolume>
@@ -175,7 +197,7 @@
     <scriptPlugins>
       <scriptPlugin>
         <name>BlinkIntegration</name>
-        <path>X:\blink\Code\blink-BrightSign\BlinkIntegration.brs</path>
+        <path>U:\blink\Code\blink-BrightSign\BlinkIntegration.brs</path>
       </scriptPlugin>
     </scriptPlugins>
     <parserPlugins>
@@ -193,7 +215,7 @@
         <url>
           <parameterValue>
             <parameterValueItemText>
-              <value>http://192.168.120.1/update/Tablets/core/</value>
+              <value>http://10.10.2.1/update/Tablets/core/</value>
             </parameterValueItemText>
           </parameterValue>
         </url>
@@ -204,21 +226,21 @@
     <beacons>
     </beacons>
     <DirectoryLocations>
-      <AllFiles>X:\blink\Code\blink-BrightSign</AllFiles>
-      <Image>X:\blink\Code\blink-BrightSign</Image>
-      <Video>X:\blink\Code\blink-BrightSign</Video>
-      <Audio>X:\blink\Code\blink-BrightSign</Audio>
-      <Media>X:\blink\Code\blink-BrightSign</Media>
-      <Fonts>X:\blink\Code\blink-BrightSign</Fonts>
-      <HTML>X:\blink\Code\blink-BrightSign</HTML>
-      <PluginScriptsAutoruns>X:\blink\Code\blink-BrightSign</PluginScriptsAutoruns>
-      <CSV>X:\blink\Code\blink-BrightSign</CSV>
-      <RFChannelScan>X:\blink\Code\blink-BrightSign</RFChannelScan>
-      <Schedules>X:\blink\Code\blink-BrightSign</Schedules>
-      <ReplacementMedia>X:\blink\Code\blink-BrightSign</ReplacementMedia>
-      <UserVariables>X:\blink\Code\blink-BrightSign</UserVariables>
-      <XModemFiles>X:\blink\Code\blink-BrightSign</XModemFiles>
-      <ImportCommandFiles>X:\blink\Code\blink-BrightSign</ImportCommandFiles>
+      <AllFiles>U:\blink\Code\blink-BrightSign</AllFiles>
+      <Image>U:\blink\Code\blink-BrightSign</Image>
+      <Video>U:\blink\Code\blink-BrightSign</Video>
+      <Audio>U:\blink\Code\blink-BrightSign</Audio>
+      <Media>U:\blink\Code\blink-BrightSign</Media>
+      <Fonts>U:\blink\Code\blink-BrightSign</Fonts>
+      <HTML>U:\blink\Code\blink-BrightSign</HTML>
+      <PluginScriptsAutoruns>U:\blink\Code\blink-BrightSign</PluginScriptsAutoruns>
+      <CSV>U:\blink\Code\blink-BrightSign</CSV>
+      <RFChannelScan>U:\blink\Code\blink-BrightSign</RFChannelScan>
+      <Schedules>U:\blink\Code\blink-BrightSign</Schedules>
+      <ReplacementMedia>U:\blink\Code\blink-BrightSign</ReplacementMedia>
+      <UserVariables>U:\blink\Code\blink-BrightSign</UserVariables>
+      <XModemFiles>U:\blink\Code\blink-BrightSign</XModemFiles>
+      <ImportCommandFiles>U:\blink\Code\blink-BrightSign</ImportCommandFiles>
     </DirectoryLocations>
     <graphicsZOrder>Front</graphicsZOrder>
     <isMosaic>False</isMosaic>
@@ -250,6 +272,15 @@
         <usbOutputB>None</usbOutputB>
         <usbOutputC>None</usbOutputC>
         <usbOutputD>None</usbOutputD>
+        <usbOutputTypeA>None</usbOutputTypeA>
+        <usbOutputTypeC>None</usbOutputTypeC>
+        <usbOutput700_1>None</usbOutput700_1>
+        <usbOutput700_2>None</usbOutput700_2>
+        <usbOutput700_3>None</usbOutput700_3>
+        <usbOutput700_4>None</usbOutput700_4>
+        <usbOutput700_5>None</usbOutput700_5>
+        <usbOutput700_6>None</usbOutput700_6>
+        <usbOutput700_7>None</usbOutput700_7>
         <audioMixMode>Stereo</audioMixMode>
         <videoVolume>100</videoVolume>
         <audioVolume>100</audioVolume>
