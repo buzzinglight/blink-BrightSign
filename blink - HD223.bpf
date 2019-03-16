@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BrightAuthor version="6" BrightAuthorVersion="4.7.1.14" type="project">
+<BrightAuthor version="6" BrightAuthorVersion="4.7.2.5" type="project">
   <meta>
     <name>blink - HD223</name>
     <isBackup>False</isBackup>
@@ -142,7 +142,7 @@
     <udpDestinationPort>15555</udpDestinationPort>
     <udpReceiverPort>15555</udpReceiverPort>
     <flipCoordinates>false</flipCoordinates>
-    <touchCursorDisplayMode>auto</touchCursorDisplayMode>
+    <touchCursorDisplayMode>hide</touchCursorDisplayMode>
     <language>French</language>
     <languageKey>fre</languageKey>
     <audioConfiguration>FixedAudio</audioConfiguration>
@@ -200,6 +200,8 @@
         <path>U:\blink\Code\blink-BrightSign\BlinkIntegration.brs</path>
       </scriptPlugin>
     </scriptPlugins>
+    <videoModePlugins>
+    </videoModePlugins>
     <parserPlugins>
     </parserPlugins>
     <htmlSites>
@@ -215,7 +217,7 @@
         <url>
           <parameterValue>
             <parameterValueItemText>
-              <value>http://10.10.2.1/update/Tablets/core/</value>
+              <value>http://192.168.0.16/update/Tablets/core/</value>
             </parameterValueItemText>
           </parameterValue>
         </url>
@@ -258,7 +260,7 @@
       <horizontalOffset>0</horizontalOffset>
       <verticalOffset>0</verticalOffset>
       <zoneSpecificParameters>
-        <viewMode>Letterboxed and Centered</viewMode>
+        <viewMode>Scale to Fill</viewMode>
         <audioOutput>Analog Audio</audioOutput>
         <audioMode>Multichannel Surround</audioMode>
         <audioMapping>Audio-1</audioMapping>
@@ -304,15 +306,16 @@
           <initialState>blinkHtml</initialState>
           <state>
             <name>blinkHtml</name>
-            <x>210</x>
-            <y>38</y>
+            <x>276</x>
+            <y>92</y>
             <width>114</width>
             <height>97</height>
-            <id>1</id>
+            <id>0</id>
             <html5Item>
-              <name>blink Tablet</name>
+              <name>blinkEmbedded</name>
               <htmlSiteName>blink Embedded</htmlSiteName>
               <enableExternalData>True</enableExternalData>
+              <enableCamera>True</enableCamera>
               <enableMouseEvents>True</enableMouseEvents>
               <displayCursor>False</displayCursor>
               <hwzOn>True</hwzOn>

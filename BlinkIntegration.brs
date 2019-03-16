@@ -11,7 +11,7 @@ Function newBlinkIntegration(msgPort As Object, userVariables As Object, bsp as 
 	s = {}
 
 	' Variables
-	s.ipServer = "10.10.2.1"
+	s.ipServer = "192.168.0.16"
 
 	' Recopie
 	s.msgPort = msgPort
@@ -191,7 +191,7 @@ End Sub
 Function BlinkIntegration_ProcessEvent(event As Object) as boolean
 	retval = false
 	
-	m.dlog("Réception d'un événément " + type(event))
+	m.dlog("Réception d'un événement " + type(event))
 	if type(event) = "roHtmlWidgetEvent" then
 		retval = handleHtmlEventPlugin(event, m)
 	else if type(event) = "roDatagramEvent" then

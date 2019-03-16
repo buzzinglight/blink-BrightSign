@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BrightAuthor version="6" BrightAuthorVersion="4.7.1.14" type="project">
+<BrightAuthor version="6" BrightAuthorVersion="4.7.2.5" type="project">
   <meta>
-    <name>blink - HD1023</name>
+    <name>blink - LS424</name>
     <isBackup>False</isBackup>
-    <model>HD1023</model>
+    <model>LS424</model>
     <videoMode>1920x1080x60p</videoMode>
     <monitorOrientation>Landscape</monitorOrientation>
     <videoConnector>HDMI</videoConnector>
@@ -12,7 +12,7 @@
     <delayScheduleChangeUntilMediaEndEvent>False</delayScheduleChangeUntilMediaEndEvent>
     <htmlEnableJavascriptConsole>True</htmlEnableJavascriptConsole>
     <backgroundScreenColor a="255" r="0" g="0" b="0" />
-    <forceResolution>False</forceResolution>
+    <forceResolution>True</forceResolution>
     <dolbyVision>False</dolbyVision>
     <fullResGraphicsEnabled>False</fullResGraphicsEnabled>
     <tenBitColorEnabled>False</tenBitColorEnabled>
@@ -200,6 +200,8 @@
         <path>U:\blink\Code\blink-BrightSign\BlinkIntegration.brs</path>
       </scriptPlugin>
     </scriptPlugins>
+    <videoModePlugins>
+    </videoModePlugins>
     <parserPlugins>
     </parserPlugins>
     <htmlSites>
@@ -313,6 +315,7 @@
               <name>blink Tablet</name>
               <htmlSiteName>blink Embedded</htmlSiteName>
               <enableExternalData>True</enableExternalData>
+              <enableCamera>False</enableCamera>
               <enableMouseEvents>True</enableMouseEvents>
               <displayCursor>False</displayCursor>
               <hwzOn>True</hwzOn>

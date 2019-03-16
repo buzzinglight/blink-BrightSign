@@ -193,7 +193,7 @@
         <url>
           <parameterValue>
             <parameterValueItemText>
-              <value>http://10.10.2.1/update/Tablets/core/</value>
+              <value>http://192.168.0.16/update/Tablets/core/</value>
             </parameterValueItemText>
           </parameterValue>
         </url>
