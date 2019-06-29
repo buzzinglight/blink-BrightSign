@@ -11,7 +11,7 @@ Function newBlinkIntegration(msgPort As Object, userVariables As Object, bsp as 
 	s = {}
 
 	' Variables
-	s.ipServer = "192.168.0.16"
+	s.ipServer = "192.168.120.1"
 
 	' Recopie
 	s.msgPort = msgPort
